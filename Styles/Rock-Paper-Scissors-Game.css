@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial;
+  margin-left: 450px;
+}
+.title {
+  margin-left: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top:30px
+}
+.move-button-rock,.move-button-paper,.move-button-scissors{
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  border: 3px solid white;
+  background-color: transparent;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.icon{
+  height: 50px;
+}
+.js-result {
+  margin-left: 150px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.js-score{
+  margin-left: 100px;
+  margin-top: 60px;
+}
+.js-moves{
+  margin-left: 110px;
+}
+.reset-score-button,.AutoPlay{
+  margin-left: 90px;
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor:pointer;
+  border-radius: 2px;
+}
+.AutoPlay{
+  margin-left: 5px;
+}
+.reset-score-button:Active,.AutoPlay:active{
+  background-color: red;
+  color: white;
+}
